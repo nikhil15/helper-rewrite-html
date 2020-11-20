@@ -36,7 +36,7 @@ helper_youtube_video=false;
 
 /*************** YouTube Video Block ***************/
 
-/*************** YouTube Vimeo Block ***************/
+/*************** Vimeo Video Block ***************/
 
 foreach ($newHtml->find('iframe[src*="https://player.vimeo.com/video/416158069?autoplay=1&title=0&byline=0&portrait=0"]') as $iframe) {
 	$iframe->setAttribute("data-type", "wprocket-vimeo-video");
@@ -62,7 +62,7 @@ elem.removeAttribute("data-src")})
 helper_vimeo_video=false;
 }
 
-/*************** YouTube Vimeo Block ***************/
+/*************** Vimeo Video Block ***************/
 
 /*************** External CSS Block ***************/
 
