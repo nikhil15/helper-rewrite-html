@@ -8,7 +8,7 @@ function rocket_helper_create_external_css_tag($stylesheet) {
 	$stylesheet->setAttribute("data-type","wprocket-external-css");
 	$stylesheet->setAttribute("data-href", $stylesheet->href);
 	$stylesheet->removeAttribute("href");
-    $stylesheet->removeAttribute("rel");
+        $stylesheet->removeAttribute("rel");
 	$stylesheet->removeAttribute("onload");
 	$stylesheet->removeAttribute("as");
 }
